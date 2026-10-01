@@ -1,0 +1,24 @@
+# OS/editor and Python-generated files
+.DS_Store
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+*.so
+*.o
+**/build/
+
+# Downloaded datasets and generated model artifacts
+**/cs231n/datasets/cifar-10-batches-py/
+**/cs231n/datasets/coco_captioning/*.h5
+**/cs231n/datasets/coco_captioning/*_images.txt
+**/cs231n/datasets/coco_captioning/*_urls.txt
+**/cs231n/datasets/imagenet_val_25.npz
+**/cs231n/datasets/text_embeddings.pt
+**/assignment3/data/cifar-10-batches-py/
+**/cs231n/saved/*.npy
+**/pretrained_model/
+
+# Submission/export artifacts
+*.pdf
+*.zip
+assignments/assignment3/simclr_sanity_check.key
